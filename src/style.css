@@ -758,3 +758,137 @@ footer a:hover { color:var(--blush); }
     .values-grid { grid-template-columns:1fr; }
     .nav-links { gap:1rem; }
 }
+
+/* terms of service */
+/* ── TERMS PAGE STYLE ── */
+
+.terms-container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 2rem;
+    background: white;
+    border: 1px solid var(--blush);
+}
+
+/* TITLE */
+.terms-container h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* DATE */
+.terms-container p:first-of-type {
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    color: var(--rose);
+    margin-bottom: 2rem;
+}
+
+/* HEADINGS */
+.terms-container h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* TEXT */
+.terms-container p {
+    font-size: 0.9rem;
+    color: var(--soft-gray);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* LIST */
+.terms-container ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.terms-container li {
+    font-size: 0.9rem;
+    color: var(--soft-gray);
+    margin-bottom: 0.5rem;
+}
+
+/* LINKS */
+.terms-container a {
+    color: var(--rose);
+    text-decoration: none;
+}
+
+.terms-container a:hover {
+    text-decoration: underline;
+}
+
+/* Privacy-policy */ 
+/* ── PRIVACY PAGE STYLE ── */
+
+.privacy-container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 2rem;
+    background: white;
+    border: 1px solid var(--blush);
+}
+
+/* TITLE */
+.privacy-container h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* DATE */
+.privacy-container p:first-of-type {
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    color: var(--rose);
+    margin-bottom: 2rem;
+}
+
+/* HEADINGS */
+.privacy-container h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* TEXT */
+.privacy-container p {
+    font-size: 0.9rem;
+    color: var(--soft-gray);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* LIST */
+.privacy-container ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.privacy-container li {
+    font-size: 0.9rem;
+    color: var(--soft-gray);
+    margin-bottom: 0.5rem;
+}
+
+/* LINKS */
+.privacy-container a {
+    color: var(--rose);
+    text-decoration: none;
+}
+
+.privacy-container a:hover {
+    text-decoration: underline;
+}
