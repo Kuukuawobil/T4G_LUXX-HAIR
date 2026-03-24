@@ -73,6 +73,7 @@ body {
     justify-content: center;
     text-align: center;
     background: linear-gradient(135deg, var(--light-pink), var(--blush), var(--cream));
+    text-decoration: none;
 }
 
 .hero-content h1 {
@@ -892,3 +893,119 @@ footer a:hover { color:var(--blush); }
 .privacy-container a:hover {
     text-decoration: underline;
 }
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ── LOGIN PAGE ── */
+.login-section {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, var(--light-pink), var(--blush), var(--cream));
+}
+
+/* LOGIN CARD */
+.login-container {
+    background: white;
+    border: 1px solid var(--blush);
+    padding: 2.5rem;
+    width: 350px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.login-container:hover {
+    box-shadow: 0 20px 40px rgba(42, 31, 26, 0.08);
+}
+
+/* TITLE */
+.login-container h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+/* INPUTS */
+.input-box {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.input-box label {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--soft-gray);
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid var(--blush);
+    background: transparent;
+    outline: none;
+    font-size: 0.85rem;
+}
+
+.input-box input:focus {
+    border-color: var(--rose);
+}
+
+/* OPTIONS */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin: 10px 0 20px;
+}
+
+.options a {
+    text-decoration: none;
+    color: var(--soft-gray);
+}
+
+.options a:hover {
+    color: var(--rose);
+}
+
+/* BUTTON */
+.login-btn {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--deep);
+    padding: 10px;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: var(--deep);
+    color: var(--cream);
+}
+
+/* REGISTER LINK */
+.register-link {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: var(--deep);
+}
+
+.register-link a:hover {
+    color: var(--rose);
+}
+
