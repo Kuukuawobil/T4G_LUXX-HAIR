@@ -3,99 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Project Landing Page</title>
+    <title>Login - LUXX HAIR</title>
     <link rel="stylesheet" href="src/style.css">
-    <script src="https://kit.fontawesome.com/901f5d9ff3.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <nav class="navbar">
         <div class="nav-container">
-            <h1 class="logo">-LUXX HAIR-</h1>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="pages/about-us.html">About Us</a></li>
-                <li><a href="pages/contact-us.html">Contact</a></li>
-                <li><a href="pages/product-page.html">Products</a></li>
-            </ul>
+            <div class="logo">LUXX HAIR</div>
+            <!-- <ul class="nav-links">
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="../pages/login.html">Login</a></li>
+                <li><a href="../pages/contact-us.html">Contact</a></li>
+                <li><a href="../pages/about-us.html">About</a></li>
+                <li></li>
+            </ul> -->
         </div>
     </nav>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to -LUXX HAIR-</h1>
-            <p>EMBRACE YOUR CROWN WITH CONFIDENCE.</p>
-            <a href="pages/product-page.html" class="shop-now-btn">Shop Now</a>
-        </div>
+    <section class="login-section">
+    <div class="login-container">
+        <h1>LUXX HAIR</h1>
+        <h2>Login</h2>
+
+        <form action="#" method="POST">
+    
+    <div class="input-box">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="input-box">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+    </div>
+
+    <div class="options">
+        <label>
+            <input type="checkbox"> Remember Me
+        </label>
+        <a href="#">Forgot Password?</a>
+    </div>
+
+<!-- ✅ MOVE OUTSIDE FORM -->
+<button type="submit" class="login-btn">Login</button>
+
+</form>
+
+<p class="register-link">
+    Don't have an account? 
+    <a href="pages/signup.html">Sign Up</a>
+</p>
+        </form>
+    </div>
     </section>
 
-    <section class="moving-text">
-        <div class="marquee">
-            <span >🤍WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍
-                 🤍 WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍 
-                 🤍 WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍 
-                 🤍 WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍 🤍 WELCOME TO THE STORE 🤍 </span>
-        </div>
-    </section>
-
-    <section id="products" class="products">
-        <h2>Product</h2>
-        <div class="cards-container">
-            <div class="card">
-                <img src="img/RAW WAVY BUNDLES_.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p>Description of product 1.</p>
-                <button>Buy Now</button>
-            </div>
-            <div class="card">
-                <img src="img/🌟 Want hair that’s full of life and personality_….jpg" alt="Product 2">
-                <h3>Product 2</h3>
-                <p>Bouncy Curls.</p>
-                <button>Buy Now</button>
-            </div>
-            <div class="card">
-                <img src="img/Raw Indian 3 Bundle Deals - 38in 38in 38in _ Wavy.jpg" alt="Product 3">
-                <h3>Raw wavy bundles</h3>
-                <p>Wavy bundle</p>
-                <button>Buy Now</button>
-            </div>
-        </div>
-    </section>
-<footer>
-        <div class="footer-inner">
-            <div class="footer-brand">
-                <span class="logo">-LUXX HAIR-</span>
-                <p>Embrace your crown with confidence. Premium hair bundles for every texture and style.</p>
-            </div>
-            <div class="footer-col">
-                <h5>Quick Links</h5>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/about-us.html">About Us</a></li>
-                    <li><a href="pages/contact-us.html">Contact</a></li>
-                    <li><a href="pages/product-page.html">Products</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h5>Legal</h5>
-                <ul>
-                    <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="pages/terms-of-service.html">Terms of Service</a></li>
-                </ul>
-                <br>
-                <h5>Follow Us</h5>
-                <div class="social-links">
-                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 -LUXX HAIR- &nbsp;✦&nbsp; All Rights Reserved</p>
-        </div>
-    </footer>
-
-
+    <!-- <footer>
+        <p>&copy; 2026 LUXX HAIR</p>
+    </footer> -->
 </body>
 </html>
